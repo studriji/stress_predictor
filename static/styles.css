@@ -1,0 +1,87 @@
+html{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background: linear-gradient(to bottom right, rgb(124, 224, 237), rgb(168, 140, 245));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: linear-gradient(to right, rgb(243, 126, 58), rgb(245, 242, 75));
+	border-bottom:#448AFF 3px solid;
+	height:60px;
+	width:100%;
+	padding-top:30px;
+
+}
+
+.main-header{
+			text-align:center;
+			background-color: blue;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+#brandname{
+	float:left;
+	font-size:30px;
+	color: #fff;
+	margin: 10px;
+}
+p{
+	font-size: 30px;
+	color:rgb(219, 38, 38);
+
+}
+header h2{
+	text-align:center;
+	color:#fff;
+
+}
+
+.btn-info {background-color: #f3cd21;
+	height:40px;
+	width:100px;} /* Blue */
+.btn-info:hover {background: #0dbc93;}
+
+.resultss{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
+.topnav {
+	background: linear-gradient(to right, rgb(243, 107, 159), rgb(240, 237, 90));
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

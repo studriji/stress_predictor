@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			ARE YOU STRESSED??
+		</div>
+		
+		
+	</div>
+	</header>
+	<div class="topnav">
+		<a class="active" href="/">Home</a>
+		<a href="/report">Report</a>
+		<a href="/about">About</a>
+	  </div>
+	<p style="color:rgb(248, 49, 212);font-size:40;text-align: center;"><b></b>Your Stress Prediction</p>
+	<p style="color: rgb(73, 16, 128);font-size:20;text-align: center;"><b></b></p>
+	<div class="results">
+
+
+		
+	{% if prediction == 0%}
+	<h2 style="color:red;text-align: center;">You are stressed &#128532</h2>
+	{% elif prediction == 1%}
+	<h2 style="color:rgb(55, 128, 13);text-align: center;">You are not stressed &#128525 &#128525</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
